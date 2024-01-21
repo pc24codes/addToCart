@@ -3,6 +3,8 @@ html, body {
     padding: 0;
     font-family: 'Rubik', sans-serif;
     background-color: #cdeeff;
+    color: #432000;
+    user-select: none;
 }
 
 .container{
@@ -39,4 +41,35 @@ button{
     text-align: center;
     margin-top: 3px;
     font-family: 'Rubik', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap ;
+    gap: 10px;
+    
+}
+
+ul li{
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    background-color: #eff0c7;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+input:hover{
+    background-color:#798797;
+}
+
+button:hover{
+    background-color: #5f2731 ;
+}
+
+ul li:hover{
+    background-color: #808080;
 }
