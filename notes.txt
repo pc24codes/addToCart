@@ -1,0 +1,3 @@
+createElement:
+- it is a method attached to DOM
+- later it should be appended to the parent element
